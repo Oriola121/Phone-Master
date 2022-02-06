@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.eng_holder {
+	height: 500px;
+	width: 100%;
+	background-image: url(./image/eng04.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header {
+	color: white;
+	height: 80px;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navs {
+	width: 500px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navs >a {
+	text-decoration: none;
+	color: white;
+}
+.navs >button {
+	background-color: transparent;
+	border: 2px solid white;
+	height: 40px;
+	width: 80px;
+	color: white;
+	font-weight: bolder;
+}
+.content {
+	height: 420px;
+	width: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.fix_1 {
+	height: 40px;
+	width: 150px;
+	color: black;
+}
+.fix_reg {
+	height: 40px;
+	width: 150px;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+}
+.Avatar {
+	height: 50px;
+	width: 80px;
+	box-sizing: border-box;
+}
+.navs >a:hover {
+	background-color: green;
+	color: gold;
+	padding: 5px;
+}
+marquee {
+	color: gold;
+}
